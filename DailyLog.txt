@@ -11,3 +11,4 @@ Day 8: Changed directory structure, separated out SQL. Added/changed notes in Ch
 Day 9: Almost done with Chapter 3. Went over error handling and reading/writing tons of styles. Added another almost 250 lines of code and comments. Iterables are all that's left standing until chapter 4!
 Day 10: Chapter 3 all done, onto chapter 4!
 Day 11: HUGE! Functions all done. Onto chapter 5!
+Day 12: Chapter 5 complete! Getting towards the end of the lesson and then onto the real fun.

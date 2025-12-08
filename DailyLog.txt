@@ -12,3 +12,4 @@ Day 9: Almost done with Chapter 3. Went over error handling and reading/writing 
 Day 10: Chapter 3 all done, onto chapter 4!
 Day 11: HUGE! Functions all done. Onto chapter 5!
 Day 12: Chapter 5 complete! Getting towards the end of the lesson and then onto the real fun.
+Day 13: Chapter 6 is done. Classes are complete, but confusing still. Probably will work slowly into these.

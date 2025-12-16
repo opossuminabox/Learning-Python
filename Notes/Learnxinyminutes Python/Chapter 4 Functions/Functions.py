@@ -142,6 +142,9 @@ print(ops["mul"](3, 4))
 # Lambda (Anonymous Functions)
 lambda x, y: x + y
 
+# Lambdas are not about power -- they are about locality. 
+# They exist to keep small, one-off behavior near where it's used, especially in iteration and functional pipelines.
+
 # Useful for short callbacks
 sorted(data, key=lambda x: x.age)
 # Lambdas must be a single expression, not a block

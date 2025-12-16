@@ -67,6 +67,7 @@ while (ptr != end) {
 
 # Generator functions (yield)
 # A generator is a spceial kind of iterator created by a function
+# Generators are Python equivalent of pointer-driven loops with saved state.
 
 def count(n):
     while n > 0:

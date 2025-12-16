@@ -2,6 +2,10 @@
     Chapter 2
     Variables and Collections
 """
+'''     It's important to note that many python features (Iterators, generators, decorators) rely on the fact that variables are references to objects, not values. 
+        This explains a lot later. 
+''' 
+
 
 # Print Function
 print("Hello world")

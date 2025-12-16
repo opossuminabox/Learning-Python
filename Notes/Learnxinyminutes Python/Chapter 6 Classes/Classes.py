@@ -92,6 +92,8 @@ p.greet()   # Python does Person.greet(p)
 #   caches
 #   default values
 
+# Never put mutable defaults (lists, dicts, sets) at the class level unless shared state is intentional.
+
 # Example
 class A:
     shared = []

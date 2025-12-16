@@ -28,7 +28,10 @@
     reassigning a different value to a changed the value. 
     
     In Python, it creates a name binding, or a pointer, for a to the value of 20.
-    reassigning a different value to a points it towards a different object with the permanent value of the new value.  
+    reassigning a different value to a points it towards a different object with the permanent value of the new value.
+
+    It's important to note that many python features (Iterators, generators, decorators) rely on the fact that variables are references to objects, not values. 
+    This explains a lot later.   
 
     Everything in Python is an object.
     == compares equality, is compares if they're the same object or not. 

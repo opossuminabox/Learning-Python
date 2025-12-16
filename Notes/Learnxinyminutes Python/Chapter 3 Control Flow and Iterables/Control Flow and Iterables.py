@@ -153,6 +153,8 @@ finally:
 
 
 ''' Advanced Notes:
+Exceptions are control-flow tools, not just error reporting. They behave more like structured jumps than error codes.
+
 with is not error handling, it's resource management. 
 with automatically does a cleanup routine for you. 
 
@@ -354,6 +356,9 @@ print(config["User"]["name"])
 ''' Advanced Notes:
 
 Python iterable = "A thing you can loop over that knows how to give you one item at a time"
+Also note: 
+    Dicts and sets rely on hashing, which is why iteration order was historically undefined pre 3.7. 
+    Modern Python preserves insertion order, but lookup behavior is still hash-based, not index based.
 
 In C terms
 Iterable is like a collection

@@ -200,7 +200,7 @@ for x in evens(read_numbers("nums.txt")):
     print(x)
 
 # Does the same as piping in the shell
-cat nums.txt | grep even
+#   cat nums.txt | grep even
 
 
 

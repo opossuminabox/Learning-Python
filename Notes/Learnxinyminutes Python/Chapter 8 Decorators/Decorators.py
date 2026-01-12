@@ -195,5 +195,26 @@ PermissionError: Admin privileges required
 
 
 # Caching
+from functools import wraps
+
+def cached(func):
+    cache = {}
+    @wraps(func)
+    def wrapper(*args):
+        if args not in cache:
+            cache[args] = func(*args)
+        return cache[args]
+    return wrapper
+
+@cached
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n - 1) + fib(n - 2)
+
+fib(35)
+# returns 9227465 which is the 35th term of the fibonacci sequence
+
+# Great for expensive calculations, repeated database queries, re-running automation steps, polling API's
 
 # Validation
